@@ -11,7 +11,7 @@ expert_analyst = Agent(
     goal="Perform detailed quality analysis of product images",
     backstory="Senior quality control expert with expertise in visual inspection",
     multimodal=True,
-    llm=llm  # AddImageTool is automatically included
+    llm=llm 
 )
 
 # Create a task with specific analysis requirements

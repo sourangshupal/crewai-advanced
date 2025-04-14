@@ -1,3 +1,4 @@
 crewai
 crewai-tools
 mem0ai
+langchain-google-genai

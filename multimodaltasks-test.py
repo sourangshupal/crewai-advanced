@@ -35,7 +35,7 @@ task2 = Task(
 # Create and run the crew
 crew = Crew(
     agents=[image_analyst],
-    tasks=[task, task1, task2]
+    tasks=[task,task1,task2]
 )
 
 result = crew.kickoff()
