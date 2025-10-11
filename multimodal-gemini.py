@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 
-llm = LLM(model="gemini/gemini-1.5-flash", api_key=os.environ["GEMINI_API_KEY"])
+llm = LLM(model="gemini/gemini-2.5-flash", api_key=os.environ["GEMINI_API_KEY"])
 
 # Create a multimodal agent for detailed analysis
 expert_analyst = Agent(

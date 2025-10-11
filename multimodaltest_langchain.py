@@ -2,14 +2,14 @@ from crewai import Agent, Task, Crew
 from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 import os
-from langchain.schema import HumanMessage
+#from langchain_core.schema import HumanMessage
 from langchain_core.messages.human import HumanMessage
 from langchain_core.messages import AIMessage
 
 load_dotenv()
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-1.5-flash",
+    model="gemini-2.5-flash",
     google_api_key=os.environ["GEMINI_API_KEY"]
 )
 
